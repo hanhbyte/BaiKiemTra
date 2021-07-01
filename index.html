@@ -20,77 +20,77 @@ else{
 
 <!-- Bài 2 -->
 
-// function Kiemtra(number,arr){
-//     for(let i=0;i<arr.length;i++){
-//         if(number== arr[i]){
-//             index=i
-//             document.write('vị trí của số trong mảng là:' +index)
-//             break;
-//         }else{
-//             document.write('số vừa nhập không nằm trong mảng')
-//             break;
-//         }
-//     }
-//
-// }
-// let arr = [1,2,3,4,5]
-// let number = prompt('nhập một số bất kì')
-// Kiemtra(number,arr)
-//
-// <!-- Bài 3 -->
-//
-// function count(arr){
-//     let arr = ["a", "o", "e", "u", "i"];
-//     let check = false;
-//     let count=0;
-//     for (let i = 0; i < arr.length; i++) {
-//         let index = arr.indexOf(arr[i]);
-//         if (index!=-1){
-//             check=true;
-//             count++;
-//         }
-//     }
-//     if(check){
-//         return count;
-//     } else {
-//         return check;
-//     }
-// }
-//
-// // CHương Trình
-// function countstr() {
-//     let arrstr = prompt("Nhập chuỗi bất kì");
-//     count(arrstr);
-// }
-//
-// <!-- Bài 4 -->
-//
-// class Animal {
-//     constructor(name,weight) {
-//         this.nam = name;
-//         this.weight = weight;
-//     }
-//     setName(newname) {
-//         return this.name = newname;
-//     }
-//     setWeight(newweight) {
-//         return this.weight = newweight;
-//     }
-//     getName() {
-//         return this.name;
-//     }
-//     getWeight() {
-//         return this.weight;
-//     }
-//     toString(){
-//         return "name: " +this.name+ ";" +"weight: " + this.weight ;
-//     }
-// }
-//
-// let objAnimal1 = new Animal (Elephant, 45.6);
-// objAnimal1.toString();
-// let objAnimal2 = new Animal (Enel, 50.6);
-// abjAnimal2.setName("Mouse");
+function Kiemtra(number,arr){
+    for(let i=0;i<arr.length;i++){
+        if(number== arr[i]){
+            index=i
+            document.write('vị trí của số trong mảng là:' +index)
+            break;
+        }else{
+            document.write('số vừa nhập không nằm trong mảng')
+            break;
+        }
+    }
+
+}
+let arr = [1,2,3,4,5]
+let number = prompt('nhập một số bất kì')
+Kiemtra(number,arr)
+
+<!-- Bài 3 -->
+
+function count(arr){
+    let arr = ["a", "o", "e", "u", "i"];
+    let check = false;
+    let count=0;
+    for (let i = 0; i < arr.length; i++) {
+        let index = arr.indexOf(arr[i]);
+        if (index!=-1){
+            check=true;
+            count++;
+        }
+    }
+    if(check){
+        return count;
+    } else {
+        return check;
+    }
+}
+
+// CHương Trình
+function countstr() {
+    let arrstr = prompt("Nhập chuỗi bất kì");
+    count(arrstr);
+}
+
+<!-- Bài 4 -->
+
+class Animal {
+    constructor(name,weight) {
+        this.nam = name;
+        this.weight = weight;
+    }
+    setName(newname) {
+        return this.name = newname;
+    }
+    setWeight(newweight) {
+        return this.weight = newweight;
+    }
+    getName() {
+        return this.name;
+    }
+    getWeight() {
+        return this.weight;
+    }
+    toString(){
+        return "name: " +this.name+ ";" +"weight: " + this.weight ;
+    }
+}
+
+let objAnimal1 = new Animal (Elephant, 45.6);
+objAnimal1.toString();
+let objAnimal2 = new Animal (Enel, 50.6);
+abjAnimal2.setName("Mouse");
 </script>
 </body>
 </html>
